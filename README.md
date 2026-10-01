@@ -1,5 +1,7 @@
 # Problematica naturii umane
 
+**Live: [raduqu21.github.io/problematica-naturii-umane](https://raduqu21.github.io/problematica-naturii-umane/)**
+
 Site-proiect pentru disciplina **Filosofie** — clasa a XII-a.
 Conținutul urmează paginile **6–8** din manualul *Filosofie* (Ioan N. Roșca — coordonator, Codruța Sorina Missbach, Gabriel Ion, Editura Corint): „Problema filosofică a omului" și „Esența omului".
 
