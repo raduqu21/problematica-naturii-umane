@@ -483,7 +483,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
       });
     }, { rootMargin: '-42% 0px -52% 0px', threshold: 0 });
-    ['acasa', 'problema', 'perspective', 'contemporane', 'esenta', 'persoana', 'glosar', 'verificare']
+    ['acasa', 'problema', 'perspective', 'esenta', 'contemporane', 'persoana', 'glosar', 'verificare']
       .forEach((id) => { const el = document.getElementById(id); if (el) observer.observe(el); });
   }
 
@@ -547,6 +547,7 @@ window.addEventListener('DOMContentLoaded', () => {
       'Filosofia nu experimentează, ci întreabă: caută natura sau esența omului pentru a putea explica apoi posibilitățile și modalitățile comportamentului uman (p. 6).',
       'Pentru Descartes, esența omului este cugetarea — „gândesc, deci exist”. Afectivitatea și voința îi aparțin lui Hume; sociabilitatea și virtuțile, lui Aristotel (pp. 6, 8).',
       'Este vorba despre «disproporție»: omul este „nimic” în comparație cu infinitul și „tot” prin comparație cu neantul — de aici, deodată, măreția și mizeria condiției umane (p. 8).',
+      'La Lucian Blaga, „saltul ontologic” este trecerea de la animalitate la umanitate, săvârșită prin cultură și creație: omul devine astfel subiect creator în Univers (p. 7).',
     ];
 
     function refreshScore() {

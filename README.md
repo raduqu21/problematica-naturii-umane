@@ -5,7 +5,9 @@
 Site-proiect pentru disciplina **Filosofie** — clasa a XII-a.
 Conținutul urmează paginile **6–8** din manualul *Filosofie* (Ioan N. Roșca — coordonator, Codruța Sorina Missbach, Gabriel Ion, Editura Corint): „Problema filosofică a omului" și „Esența omului".
 
-**Prin ce se remarcă:** o lectură vizuală de tip *scrollytelling* — scenă cosmică 3D în WebGL, o galerie orizontală cu perspectiva tradițională (Aristotel → Kant), o axă verticală „nimic ↔ tot" pentru Pascal, globele *Eu/Tu* pentru alteritate și un quiz de verificare.
+**Prin ce se remarcă:** o lectură vizuală de tip *scrollytelling* — scenă cosmică 3D în WebGL, tabloul lui Gauguin în hero, o galerie orizontală cu portretele filosofilor (Aristotel → Descartes → Hume → Kant), o axă verticală „nimic ↔ tot" pentru Pascal, globele *Eu/Tu* pentru alteritate și un quiz de verificare.
+
+Textul urmează un **fir narativ** (definiții → disproporție → devenire → persoană): fiecare secțiune se încheie cu o verigă de tranziție care duce firesc în subiectul următor, iar portretele sunt integrate în pagină (note în margine, carduri, medalioane).
 
 ## Stack tehnologic
 
@@ -43,6 +45,7 @@ Apoi deschide <http://localhost:4173>.
 │   │   ├── fonts.css       # @font-face pentru fonturile auto-găzduite
 │   │   └── main.css        # CSS compilat (nu edita direct!)
 │   ├── fonts/              # fonturi variabile .woff2 (latin + latin-ext)
+│   ├── img/                # portretele filosofilor + tabloul Gauguin (domeniu public)
 │   ├── js/
 │   │   └── main.js         # animații, scena 3D, quiz, setări
 │   ├── src/
@@ -75,3 +78,4 @@ Apoi deschide <http://localhost:4173>.
 - **Codul acestui proiect:** MIT.
 - **three.js** (MIT), **GSAP/ScrollTrigger** (licența standard GreenSock — utilizare gratuită), **Lenis** (MIT) — copii minificate în `assets/vendor/`.
 - **Fonturile** Fraunces, Newsreader, Instrument Sans — licență SIL Open Font License (Google Fonts).
+- **Imaginile** din `assets/img/` — tabloul lui Paul Gauguin și portretele (Socrate, Aristotel, Descartes — Frans Hals, Hume — Allan Ramsay, Kant, Pascal): domeniu public, via [Wikimedia Commons](https://commons.wikimedia.org).
